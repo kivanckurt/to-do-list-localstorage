@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="favicon/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <div class="bg"></div>
+      <div class="modal" id="myModal">
+        <div class="modal-content">
+          <div class="name">
+            <p>New Task Name</p>
+          </div>
+          <input type="text" name="" id="newTask" />
+          <div class="buttons">
+            <button class="create">Create</button>
+            <button class="close">Close</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menubar">
+        <div class="user">
+          <div class="img"><img src="./user-profile.webp" alt="" /></div>
+          <div class="user-info">
+            <p>Kıvanç Kurt</p>
+            <p class="mail">kivanc.kurt@ug.bilkent.edu.tr</p>
+          </div>
+        </div>
+
+        <div class="members">
+          <i class="fa-regular fa-star"></i>
+          <p>Project Members</p>
+        </div>
+
+        <div class="newList">
+          <i class="fa-duotone fa-plus"></i>
+          <p>New List</p>
+        </div>
+      </div>
+
+      <div class="page">
+        <div class="projectMem">
+          <h1><i class="fa-regular fa-star"></i> Project Members</h1>
+        </div>
+        <div class="taskPage"></div>
+        <div class="add">
+          <span class="symbol">+</span>
+          <input type="text" name="" id="addTask" placeholder="Add a Task" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
